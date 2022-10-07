@@ -7,6 +7,6 @@ class Achievement(Base):
     __tablename__ = 'achievements'
     id = Column(Integer, primary_key=True)
     achievement_title = Column(String(100), nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'))
-    playthrough_id = Column(Integer, ForeignKey('playthoughs.id'))
+    # user_id = Column(Integer, ForeignKey('users.id'))
+    # playthrough_id = Column(Integer, ForeignKey('playthoughs.id'))
     
